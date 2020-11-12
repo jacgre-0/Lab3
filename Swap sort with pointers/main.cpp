@@ -1,6 +1,6 @@
 #include <iostream>
 
-void swap_sort(int* a, int* b, int* c, bool sortOrder);
+void swap_sort_ptr(int* a, int* b, int* c, bool sortOrder);
 
 int main() {
     int a{};
@@ -24,13 +24,13 @@ int main() {
     std::cout << "Sort ascending/descending (1/0): ";
     std::cin >> sortOrder;
 
-    swap_sort(&a, &b, &c, sortOrder);
+    swap_sort_ptr(&a, &b, &c, sortOrder);
 
     std::cout << "Result: " << a << ", " << b << ", " << c << std::endl;
     return 0;
 }
 
-void swap_sort(int* a, int* b, int* c, bool sortOrder) {
+void swap_sort_ptr(int* a, int* b, int* c, bool sortOrder) {
     //sort ascending
     {
         bool worstCaseFlag{ false };
