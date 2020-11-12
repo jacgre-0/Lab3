@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "String Length", "Lab3\Lab3.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Average salaries", "Average salaries\Average salaries.vcxproj", "{0C22AF50-9A7C-41DF-8CB1-AC8220B4C950}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swap sort with pointers", "Swap sort with pointers\Swap sort with pointers.vcxproj", "{6F663427-5827-4A3E-8820-D472F4888A63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{0C22AF50-9A7C-41DF-8CB1-AC8220B4C950}.Release|x64.Build.0 = Release|x64
 		{0C22AF50-9A7C-41DF-8CB1-AC8220B4C950}.Release|x86.ActiveCfg = Release|Win32
 		{0C22AF50-9A7C-41DF-8CB1-AC8220B4C950}.Release|x86.Build.0 = Release|Win32
+		{6F663427-5827-4A3E-8820-D472F4888A63}.Debug|x64.ActiveCfg = Debug|x64
+		{6F663427-5827-4A3E-8820-D472F4888A63}.Debug|x64.Build.0 = Debug|x64
+		{6F663427-5827-4A3E-8820-D472F4888A63}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F663427-5827-4A3E-8820-D472F4888A63}.Debug|x86.Build.0 = Debug|Win32
+		{6F663427-5827-4A3E-8820-D472F4888A63}.Release|x64.ActiveCfg = Release|x64
+		{6F663427-5827-4A3E-8820-D472F4888A63}.Release|x64.Build.0 = Release|x64
+		{6F663427-5827-4A3E-8820-D472F4888A63}.Release|x86.ActiveCfg = Release|Win32
+		{6F663427-5827-4A3E-8820-D472F4888A63}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
