@@ -34,6 +34,13 @@ int main() {
             << "Make your choice: ";
         std::cin >> choice;
 
+        if (std::cin.fail()) {
+            std::cout << "Error! only numbers between 1 and 8 is allowed.\n" << std::endl;
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            continue;
+        }
+
         switch (choice)
         {
         case 1:
@@ -85,7 +92,7 @@ int main() {
 
             break;
         default:
-            std::cout << "Error! only numbers between 1 and 6 is allowed." << std::endl;
+            std::cout << "Error! only numbers between 1 and 8 is allowed." << std::endl;
             break;
         }
     }
