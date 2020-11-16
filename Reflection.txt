@@ -1,0 +1,8 @@
+What did you learn? What did you know already? 
+I already have knowledge of everything we have done so far.
+
+What was difficult in the lab? How did you overcome it?
+I did not find anything to be particularly difficult.
+
+I spent around 1.5 hours on this assignment.
+I am using Visual Studio 2019

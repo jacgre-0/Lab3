@@ -15,6 +15,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Character replacement with 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vector database with pointers", "Vector database with pointers\Vector database with pointers.vcxproj", "{2E2D799B-2809-4DA5-B9F1-5E841DE22381}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5629A803-40B7-4175-A86F-788510728468}"
+	ProjectSection(SolutionItems) = preProject
+		Reflection.txt = Reflection.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
