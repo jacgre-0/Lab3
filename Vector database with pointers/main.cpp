@@ -162,7 +162,7 @@ bool search(const Database* database, const std::string& searchStr) {
 void save(const Database* database, const std::string& filePath) {
     std::ofstream out;
 
-    //If the does not exist, ofstream::open will automatically create it.
+    //If the file does not exist, ofstream::open will automatically create it.
     out.open(filePath);
 
     //Some error has occured
