@@ -4,8 +4,8 @@ void replace_chars(char* str, char searhChar, char replacementChar);
 
 int main() {
     char str[] = "Hello";
-    replace_chars(str, 'l', 'p');
-    replace_chars(str, 'H', 'l');
+    std::cout << str << std::endl;
+    replace_chars(str, 'l', 'h');
     std::cout << str << std::endl;
     return 0;
 }
